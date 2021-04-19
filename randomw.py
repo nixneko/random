@@ -12,6 +12,7 @@ if input1 == input1:
         now = datetime.now
         z = datetime.now().timestamp()
         x = ''.join(random.choice(string.ascii_letters + string.digits) for _ in range(rangee))
+        print(x)
         if input1 == x:
             a = z - y
             end = datetime.utcfromtimestamp(a).strftime('%M:%S')
